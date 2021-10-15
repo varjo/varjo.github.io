@@ -1,32 +1,22 @@
-/* -----------------------------------------------
-/* How to use? : Check the GitHub README
-/* ----------------------------------------------- */
+/* sweetScroll load */
+document.addEventListener("DOMContentLoaded", function () {
+  new SweetScroll({/* some options */});
 
-/* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
-/*
-particlesJS.load('particles-js', '../assets/particles.json', function() {
-  console.log('particles.js loaded - callback');
-});
-*/
-
-/* Otherwise just put the config content (json): */
-
-particlesJS('particles-js',
-  
-  {
+  /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+  particlesJS('particles-js', {
     "particles": {
       "number": {
-        "value": 80,
+        "value": 30,
         "density": {
           "enable": true,
           "value_area": 800
         }
       },
       "color": {
-        "value": "#163A40"
+        "value": "#ffffff"
       },
       "shape": {
-        "type": "circle",
+        "type": "polygon",
         "stroke": {
           "width": 0,
           "color": "#000000"
@@ -41,7 +31,7 @@ particlesJS('particles-js',
         }
       },
       "opacity": {
-        "value": 0.75,
+        "value": 0.5,
         "random": false,
         "anim": {
           "enable": false,
@@ -51,11 +41,11 @@ particlesJS('particles-js',
         }
       },
       "size": {
-        "value": 5,
+        "value": 3,
         "random": true,
         "anim": {
           "enable": false,
-          "speed": 10,
+          "speed": 19.18081918081918,
           "size_min": 0.1,
           "sync": false
         }
@@ -63,30 +53,32 @@ particlesJS('particles-js',
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#9E7D40",
+        "color": "#ffffff",
         "opacity": 0.4,
         "width": 1
       },
       "move": {
         "enable": true,
-        "speed": 3,
+        "speed": 4,
         "direction": "none",
-        "random": false,
+        "random": true,
         "straight": false,
         "out_mode": "out",
+        "bounce": false,
         "attract": {
           "enable": false,
           "rotateX": 600,
           "rotateY": 1200
         }
-      }
+      },
+      nb: 80
     },
     "interactivity": {
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": true,
-          "mode": "repulse"
+          "enable": false,
+          "mode": "grab"
         },
         "onclick": {
           "enable": true,
@@ -109,7 +101,8 @@ particlesJS('particles-js',
           "speed": 3
         },
         "repulse": {
-          "distance": 200
+          "distance": 200,
+          "duration": 0.4
         },
         "push": {
           "particles_nb": 4
@@ -119,15 +112,7 @@ particlesJS('particles-js',
         }
       }
     },
-    "retina_detect": true,
-    "config_demo": {
-      "hide_card": false,
-      "background_color": "#b61924",
-      "background_image": "",
-      "background_position": "50% 50%",
-      "background_repeat": "no-repeat",
-      "background_size": "cover"
-    }
-  }
+    "retina_detect": true
+  });
 
-);
+}, false);

@@ -1,6 +1,6 @@
 # Site settings
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
+title: Curt's site
+description: Welcome to my world
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://varjo.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 #url: "http://localhost:3000"
@@ -18,6 +18,6 @@ gplus_username:  google_name
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "iG-XF2FHSNQSJ"
 
 exclude: ['package.json', 'src' , 'node_modules']

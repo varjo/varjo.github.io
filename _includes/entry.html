@@ -1,0 +1,15 @@
+<div class="main">
+    <div class="sidebar">
+     <a href="/"><i class="homeicon fa-solid fa-home fa-2xl" aria-hidden="true"></i></a>
+         {% for post in site.posts %}
+             <div class="sidebar-cell">
+                 <a class="sidebar-text" href="{{ post.url }}">{{ post.title }}</a>
+             </div>
+         {% endfor %}
+    </div>
+    <div class="content">
+        <section>
+            {{ content }}
+        </section>
+    </div>
+</div>

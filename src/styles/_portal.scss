@@ -9,6 +9,7 @@
 
     @media only screen and (max-width: $cut) {
         float: none;
+        width: 80%;
     }
 };
 
@@ -19,10 +20,10 @@
 
     img {
         width: 600px;
-        height: 400px;
+        height: auto;
         max-width: 100%;
         max-height: auto;
-        margin-left: 10%;
+        //margin-left: 10%;
 
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }

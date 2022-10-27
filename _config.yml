@@ -2,10 +2,10 @@
 title: Curt's site
 description: Welcome to my world
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://www.hyva.ski" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
-#url: "http://localhost:3000"
-resource: "https://www.hyva.ski/"
-#resource: "http://localhost:3000/"
+#url: "https://www.hyva.ski" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "http://localhost:3000"
+#resource: "https://www.hyva.ski/"
+resource: "http://localhost:3000/"
 
 # User settings
 username: Curt

@@ -1,14 +1,51 @@
-#about {
-  width: 90%;
-  margin: 0 auto;
-  max-width: 960px;
-  @media only screen and (min-width: $cut) {
-    width: 80%;
+.profilecontainer {
+
+  
+  height: 100vh;
+  width: 100%;
+
+  //padding-top: 5%;
+  //margin-top: 5%;
+
+  background-image: $profilebg;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+  .content {
+    height: 75%;
+    width: 90%;
+    margin-top: 5%;
+    //margin-bottom: 5%;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    display: inline-block;
+
+    overflow-y: scroll;
+  }
+
+  h3 {
+    padding-top: 0;
   }
 }
 
-.tech {
-  margin: 10px;
+.title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.profilepic {
+    width: 10%;
+    height: auto;
+    padding: 45%;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    border-radius: 50%;
+    margin-top: 10px;
 }
 
 .user {

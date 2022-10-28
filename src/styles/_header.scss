@@ -34,6 +34,11 @@
     }
   }
   .site-description {
+
+    a {
+      color: rgb(22, 58, 64);
+    }
+
     font-size: 20px;
     display: block;
     line-height: 1;
@@ -119,25 +124,5 @@
       &:active {
         color: $sec;
       }
-  }
-}
-
-.tech {
-  margin: 10px;
-}
-
-.content {
-  text-align: center;
-  font-size: 60px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  p {
-    font-size: 16px;
-  }
-  @media only screen and (min-width: $cut) {
-    flex-wrap: nowrap;
-    font-size: 75px;
   }
 }

@@ -1,11 +1,7 @@
 .profilecontainer {
 
-  
   height: 100vh;
   width: 100%;
-
-  //padding-top: 5%;
-  //margin-top: 5%;
 
   background-image: $profilebg;
   background-repeat: no-repeat;
@@ -13,21 +9,14 @@
   background-attachment: fixed;
   background-position: center;
 
-  .content {
-    height: 75%;
-    width: 90%;
-    margin-top: 5%;
-    //margin-bottom: 5%;
-    padding-top: 0;
-    padding-bottom: 0;
-
-    display: inline-block;
-
-    overflow-y: scroll;
-  }
+  display: inline-block;
 
   h3 {
     padding-top: 0;
+  }
+
+  figcaption {
+    text-align: center;
   }
 }
 
@@ -38,14 +27,14 @@
 
 
 .profilepic {
-    width: 10%;
-    height: auto;
-    padding: 45%;
-    padding-top: 0;
-    padding-bottom: 0;
+
+    width: 150px;
+    height: 150px; 
 
     border-radius: 50%;
-    margin-top: 10px;
+    margin: 25px auto;
+    margin-bottom: 10px;
+    display: block;
 }
 
 .user {

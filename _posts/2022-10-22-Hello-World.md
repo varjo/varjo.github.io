@@ -10,4 +10,4 @@ Hello world, this is my first blog on a site I created mostly myself. Greetz to 
 
 At the moment, this site is still under construction and is prone to unnecessary features, bugs, catastrophic security vulnerabilities, and web design faux pas. 
 
-The goal of this blog is to attempt organizing my ramblings between vulnerability research/exploit development (edgy cybersecurity stuff for those unfamiliar to my research and professional goals), and outdoor adventures (aka "touching grass" for those infosec nerds that are here).
+The goal of this blog is to attempt organizing my ramblings between vulnerability research/exploit development and outdoor adventures.
